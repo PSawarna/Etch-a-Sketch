@@ -1,0 +1,31 @@
+#container {
+  width: 1fr;
+  height: 1fr;
+  margin: 10px;
+  margin-top: 5%;
+}
+
+#container > div {
+  display: inline-grid;
+  border: solid 1px #ddd;
+  padding: 2px;
+}
+
+#clear {
+  margin-top: 3%;
+  margin-left: 40%;
+  background-color: pink;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#clear:hover {
+    box-shadow: 2px 3px 3px 0 grey;
+}
